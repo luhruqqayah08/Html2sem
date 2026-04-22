@@ -231,47 +231,35 @@ body {
   max-width: 1280px;
   padding: 0 1rem;
 }
-.rectangle {
+.cvf {
   width: 30%;
-  min-width: 260px;
-  height: 270px;
-  border: 2px solid black;
   border-radius: 28px;
-  padding: 1.5rem;
+  box-shadow: 0px 0px 10px black;
+  min-width: 260px;
+}
+.rectangle {
+  width: 100%;
+
+  height: 270px;
 
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
-
-#R1 {
-  background: url(Billie-Eilish.avif) center / cover no-repeat;
+img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 28px;
 }
-
-#R2 {
-  background: url(Billie-Eilish.avif) center / cover no-repeat;
+.text {
+  padding: 12px;
 }
-
-#R3 {
-  background: url(Billie-Eilish.avif) center / cover no-repeat;
-}
-
-#R4 {
-  background: url(Billie-Eilish.avif) center / cover no-repeat;
-}
-
-#R5 {
-  background: url(Billie-Eilish.avif) center / cover no-repeat;
-}
-
-#R6 {
-  background: url(Billie-Eilish.avif) center / cover no-repeat;
-}
-.rectangle h3 {
+.text h3 {
   font-size: 1.4rem;
   margin-bottom: 0.75rem;
   color: black;
 }
-.rectangle p {
+.text p {
   font-size: 0.9rem;
   color: black;
   text-align: bottom;
